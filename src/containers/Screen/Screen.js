@@ -8,7 +8,7 @@ const Screen = ({ children }) => (
     <Column>
       <MainMenu />
     </Column>
-    <Column>{children}</Column>
+    <Column sizes={["sm-9"]}>{children}</Column>
   </FluidContainer>
 );
 

@@ -1,5 +1,5 @@
 // example theme overrides 
-$body-bg: #000;
+$body-bg: #fcfcfc;
 $body-color: #111;
 $theme-colors: (
   "primary": #0074d9,
@@ -9,4 +9,23 @@ $theme-colors: (
 @import "~bootstrap/scss/bootstrap";
 
 // custom component styles includes
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
 
+.schema-form {
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+  padding: 8px 0;
+}
+
+#root .container-fluid .row,
+#root .container-fluid .row>* {
+  height: 100%; 
+}
