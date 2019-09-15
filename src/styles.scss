@@ -1,0 +1,12 @@
+// example theme overrides 
+$body-bg: #000;
+$body-color: #111;
+$theme-colors: (
+  "primary": #0074d9,
+  "danger": #ff0000
+);
+// Bootstrap include 
+@import "~bootstrap/scss/bootstrap";
+
+// custom component styles includes
+
